@@ -1,0 +1,71 @@
+@media all and (max-width: 1024px) {
+    .logo {
+        width: 178%;
+    }
+    .header__title {
+        margin-left: 15%;
+    }
+    .content__left {
+        width: 50%;
+    }
+    .header__item_icon {
+        width: 57%;
+    }
+}
+@media all and (max-width: 768px) {
+    .logo {
+        width: 490%;
+    }
+    .header__social{
+        display: none;
+    }
+    .header__title {
+        margin-left: 45%;
+    }
+}
+@media all and (max-width: 425px) {
+    .header__title {
+        margin-left: 45%;
+    }
+    .header {
+        flex-direction: column;
+    }
+    .logo {
+        width: 400%;
+    }
+    .header__title {
+        margin-left: 0;
+        text-align: center;
+    }
+    .header__title_name {
+        margin-top: 0;
+    }
+    .header__phone_img {
+        margin-left: 16%;
+    }
+    .content__other {
+        flex-direction: column;
+    }
+    .content__left {
+        width: 100%;
+        text-align: center;
+        list-style-type: none;
+    }
+    .content__right_header {
+        width: 100%; 
+    }
+    .content__left_list {
+        list-style-type: none;
+        padding: 0;
+    }
+    .content__left_work {
+        padding: 0;
+        list-style-type: none;
+    }
+    .content__right {
+        width: 100%;
+        text-align: center;
+    }
+}
+/*? mobile 375px и mobile 320px по моему стоит как надо */
+/*? я старался */
